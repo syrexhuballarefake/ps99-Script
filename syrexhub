@@ -1,9 +1,0 @@
-local placeId = game.PlaceId
-
-if placeId == 8737899170 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/syrexhuballarefake/ps99-Script/main/world1'))()
-elseif placeId == 16498369169 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/syrexhuballarefake/ps99-Script/main/world2'))()
-else
-    warn("Unsupported Place ID: " .. placeId)
-end
